@@ -7,19 +7,28 @@ body {
     padding: 0;
     font-family: "Inter", sans-serif;
     background-color: #323030;
-    color: #F9F6EE;
+    color: #d3d0c9;
     min-height: 100vh;
-    background-image: linear-gradient(to right, #80808012 1px, transparent 1px),
-    linear-gradient(to bottom, #80808012 1px, transparent 1px);
+    background-image: 
+        linear-gradient(to right, #80808012 1px, transparent 1px),
+        linear-gradient(to bottom, #80808012 1px, transparent 1px);
     background-size: 24px 24px;
+    z-index: 0;
+}
 
+body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle, rgba(255,255,255,0) 70%, rgba(50, 48, 48, 1) 100%);
+  pointer-events: none;
+  z-index: 1;
 }
 
 header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 100vh;
 }
 
 h1 {
@@ -36,7 +45,6 @@ h1 {
     flex-direction: column;
     font-family: "Inter", sans-serif;
     margin: 0 1em;
-    height: 100%;
     width: 100%;
     text-align: center;
     gap: 1rem;
@@ -47,21 +55,10 @@ h1 {
     width: 100%;
     font-size: 2rem;
     font-weight: 250;
-    position: relative;
     border-radius: 2px;
     letter-spacing: 0.3em;
     margin-bottom: 2em;
 }
-
-@keyframes spin{
-    from{
-        --angle: 0deg;
-    }
-    to{
-        --angle: 360deg;
-    }
-}
-
 
 @keyframes animatedTextGradient {
   from {
@@ -89,7 +86,7 @@ h1 {
 
 a {
     text-decoration: none;
-    color: white;
+    color: #d3d0c9;
 }
 
 .back-btn{
@@ -97,8 +94,8 @@ a {
     border: none;
     cursor: pointer;
     position: absolute;
-    top: 0.5em;
-
+    top: 2em;
+    left: 1em;
 }
 
 .about-title{
@@ -136,6 +133,7 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
 }
 
 p {
@@ -151,4 +149,11 @@ p {
 @keyframes fadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
 }
