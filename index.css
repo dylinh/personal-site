@@ -34,7 +34,7 @@ header {
 h1 {
     padding-top: 0.5em;
     margin: 0;
-    font-weight: 300;
+    font-weight: 400;
     font-size: 15vw;
     letter-spacing: .09em;
     line-height: 1.5em;
@@ -53,8 +53,8 @@ h1 {
 
 .nav-block{
     width: 100%;
-    font-size: 2rem;
-    font-weight: 250;
+    font-size: 2.5rem;
+    font-weight: 200;
     border-radius: 2px;
     letter-spacing: 0.3em;
     margin-bottom: 2em;
@@ -156,4 +156,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 1em;
+}
+
+.mail-logo{
+    margin-top: 9px;
 }

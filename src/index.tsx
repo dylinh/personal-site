@@ -20,7 +20,6 @@ ReactDOM
             <Route path="/projects"/>
             <Route path="/resume"/>
             <Route path="/blog"/>
-            <Route path="/contact"/>
         </Routes>
     </BrowserRouter>
 )

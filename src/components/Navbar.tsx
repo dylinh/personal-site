@@ -7,7 +7,6 @@ export default function Navbar(){
             <Navblock path="/projects">PROJECTS</Navblock>
             <Navblock path="/resume">RESUME</Navblock>
             <Navblock path="/blog">BLOG</Navblock>
-            <Navblock path="/contact">CONTACT</Navblock>
         </nav>
     )
 }
