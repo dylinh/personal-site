@@ -24,4 +24,3 @@ export default function About(){
             </>
     )
 }
-// My mom and dad came to Canada as refugees from Vietnam and Cambodia respectively. In my free time I enjoy swimming, running, writing, and spending time with my family and friends.
