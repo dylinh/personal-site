@@ -12,9 +12,8 @@ export default function About(){
                                 <div className="img-container">
                         <img src={imgUrl} className="about-img"/>
                     </div>
-                    <p className="writing">Hey, my name is Dylinh Bun. I'm a fourth year studying Computer Science at Wilfrid Laurier University. I previously worked at Loblaws as a Data Science Intern where I automated financial reports in Python. <br/><br/>My interest lies in web development as I have working knowledge in HTML, CSS, JavaScript, React, A11Y, Responsive Design, and UI design.
-                    </p>
-                    <p className="writing"><br/> In my free time I enjoy swimming, running, writing, and spending time with my family and friends.<br/><br/>I'm looking for Winter 2026 internships, May 2026 new grad roles and freelance opportunities in software development.</p>
+                    <p className="writing">Hey, my name is Dylinh Bun. I'm a fourth year Computer Science student at Wilfrid Laurier University with experience in both web development and data science. At Loblaws, I automated financial reporting in Python, saving time for a finance team every week.<br/><br/>My main focus now is building modern and responsive websites. I work with HTML, CSS, JavaScript, React, accessibility, and UI design to develop websites that are well designed and performant across devices.</p>
+                    <p className="writing"><br/> In my free time I enjoy swimming, running, writing, and spending time with my family and friends.<br/><br/>I'm currently open to Winter 2026 internships, May 2026 new grad roles and freelance opportunities in website development.</p>
                     </div>
                     <Footer/>
                 </div>
