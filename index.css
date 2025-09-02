@@ -151,6 +151,10 @@ p {
   to { opacity: 1; }
 }
 
+.bold{
+    font-weight: bold;
+}
+
 footer{
     display: flex;
     justify-content: center;
