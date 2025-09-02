@@ -48,7 +48,6 @@ h1 {
     width: 100%;
     text-align: center;
     gap: 1rem;
-    margin-top: 2em;
 }
 
 .nav-block{
@@ -165,4 +164,40 @@ footer{
 
 .mail-logo{
     margin-top: 9px;
+}
+
+.footer-home{
+    margin-top: 8.3em;
+}
+
+.blog-card{
+    background: rgba(150, 135, 135, 0.1);
+    box-shadow: 0 0 20px rgb(39, 38, 38);
+    backdrop-filter: blur(1px);
+    padding: 0.3em 1em;
+    border-radius: 15px;
+    overflow: auto;
+}
+
+.blog-card-title{
+    margin-bottom: 0.1em;
+    font-weight: 400;
+}
+
+.blog-card-date{
+    opacity: 60%;
+    margin-bottom: 0;
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.blog-card-desc{
+    margin-top: 0.5em;
+    font-weight: 300;
+    font-size: 1rem;
+}
+
+.blog-card-container{
+    width: 90%;
+    margin: 0 auto;
 }
