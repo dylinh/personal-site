@@ -3,8 +3,8 @@ import { Link } from "react-router"
 type BlogCardProps = {
     title: string,
     desc: string,
-    path: string
-    date: string
+    path: string,
+    date: string,
     className?: string
 }
 
