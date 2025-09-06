@@ -4,7 +4,7 @@ export default function Portfolio(){
     return (
         <>
             <BackButton/>
-            <p className="about-title text-animation">Portfolio</p>
+            <p className="about-title text-animation">PORTFOLIO</p>
         </>
     )
 }

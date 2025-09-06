@@ -7,7 +7,7 @@ export default function About(){
             <>
                     <BackButton/>
                     <div className="about-container">
-                        <p className="about-title text-animation">About</p>
+                        <p className="about-title text-animation">ABOUT</p>
                         <div className="fade-in">
                             <div className="img-container">
                                 <img src={imgUrl} className="about-img"/>
