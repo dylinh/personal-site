@@ -1,12 +1,18 @@
 import BackButton from "../components/BackButton";
 import BlogCard from "../components/BlogCard";
 
-const blogPostsWithPath = [{
-    title: "100 Days Without Social Media",
-    date: "September 2, 2025",
-    desc: "My reflections on the past one hundred days.",
-    path: "/blog/social-media"
-}]
+const blogPostsWithPath = [
+    {
+        title: "4 Months of Frontend Development",
+        date: "September 13, 2025",
+        desc: "What I learned over the summer.",
+        path: "/blog/frontend"
+    },{
+        title: "100 Days Without Social Media",
+        date: "September 2, 2025",
+        desc: "How my life has changed without social media.",
+        path: "/blog/social-media"
+    }]
 
 export default function Blog(){
     return (

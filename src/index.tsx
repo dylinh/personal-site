@@ -5,6 +5,7 @@ import About from "./pages/About"
 import Portfolio from "./pages/Portfolio"
 import Blog from "./pages/Blog"
 import SocialMedia from './blogPosts/SocialMedia'
+import Frontend from './blogPosts/Frontend'
 
 function App(){
     return (
@@ -21,7 +22,8 @@ ReactDOM
             <Route path="/about" element={<About/>}/>
             <Route path="/portfolio" element={<Portfolio/>}/>
             <Route path="/blog" element={<Blog/>}/>
-             <Route path="/blog/social-media" element={<SocialMedia/>}/>
+            <Route path="/blog/social-media" element={<SocialMedia/>}/>
+            <Route path="/blog/frontend" element={<Frontend/>}/>
         </Routes>
     </BrowserRouter>
 )
