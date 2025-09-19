@@ -6,7 +6,9 @@ export default function Portfolio(){
         <>
             <BackButton/>
             <p className="about-title text-animation">PORTFOLIO</p>
-            <ProjectCard/>
+            <div className="blog-card-container">
+                <ProjectCard/>
+            </div>
         </>
     )
 }

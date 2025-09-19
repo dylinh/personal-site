@@ -239,3 +239,19 @@ footer{
     padding: 0.8em 0;
 
 }
+
+.tag-container{
+    margin-top: 1em;
+    display: flex;
+    gap: 0.5rem;
+    padding-bottom: 0.5em;
+    font-size: 0.8rem;
+    opacity: 60%;
+
+}
+
+.project-tag{
+    border: solid 0.5px;
+    border-radius: 5px;
+    padding: 0.2em 0.5em;
+}
