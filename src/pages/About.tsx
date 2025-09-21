@@ -5,7 +5,7 @@ import BackButton from "../components/BackButton";
 export default function About(){
     return(
             <>
-                    <BackButton/>
+                    <BackButton path={"/"}/>
                     <div className="about-container">
                         <p className="about-title text-animation">ABOUT</p>
                         <div className="fade-in">
@@ -18,7 +18,6 @@ export default function About(){
                             </div>
                         </div>
                     </div>
-                    <Footer/>
             </>
     )
 }

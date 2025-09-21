@@ -1,5 +1,6 @@
 import BackButton from "../components/BackButton";
 import BlogCard from "../components/BlogCard";
+import Footer from "../components/Footer";
 
 const blogPostsWithPath = [
     {
@@ -17,7 +18,7 @@ const blogPostsWithPath = [
 export default function Blog(){
     return (
         <>
-            <BackButton/>
+            <BackButton path="/"/>
             <p className="about-title text-animation">BLOG</p>
             <div className="blog-card-container fade-in">
                 {
