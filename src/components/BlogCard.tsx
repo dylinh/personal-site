@@ -11,7 +11,7 @@ type BlogCardProps = {
 
 export default function BlogCard({title, desc, path, date, className}: BlogCardProps){
     return (
-        <Link to={path}>
+        <Link aria-label={`View Dylinh's blog post titled ${title}`} to={path}>
             <div className={`blog-card ${className}`}>
                 <h2 className="blog-card-title">{title}</h2>
                 <p className="blog-card-date">{date}</p>

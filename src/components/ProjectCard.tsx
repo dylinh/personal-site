@@ -15,7 +15,7 @@ export default function ProjectCard({title, date, desc, tags, path}: ProjectCard
     )})
     
     return (
-        <a href={path} target="_blank" rel="noopener noreferrer">
+        <a aria-label={`View Dylinh's ${title} project on GitHub.`} href={path} target="_blank" rel="noopener noreferrer">
             <div className="blog-card">
                 <h2 className="blog-card-title">{title}</h2>
                 <p className="blog-card-date">{date}</p>
