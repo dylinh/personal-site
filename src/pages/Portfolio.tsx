@@ -1,5 +1,6 @@
 import BackButton from "../components/BackButton"
 import ProjectCard from "../components/ProjectCard"
+import Footer from "../components/Footer"
 
 export default function Portfolio(){
     return (

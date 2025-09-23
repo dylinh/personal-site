@@ -1,10 +1,11 @@
 import imgUrl from "../assets/dylinh3.jpg"
 import Footer from "../components/Footer";
 import BackButton from "../components/BackButton";
+import Navbar from "../components/Navbar";
 
 export default function About(){
     return(
-            <>
+            <div className="about-page">
                     <BackButton path={"/"}/>
                     <div className="about-container">
                         <p className="about-title text-animation">ABOUT</p>
@@ -18,6 +19,6 @@ export default function About(){
                             </div>
                         </div>
                     </div>
-            </>
+            </div>
     )
 }

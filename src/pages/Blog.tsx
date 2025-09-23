@@ -11,7 +11,7 @@ const blogPostsWithPath = [
     },{
         title: "100 Days Without Social Media",
         date: "September 2, 2025",
-        desc: "How my life has changed without social media.",
+        desc: "Reflections & thoughts.",
         path: "/blog/social-media"
     }]
 

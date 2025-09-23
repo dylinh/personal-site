@@ -4,7 +4,7 @@ export default function Navblock({children, path}:{children: string, path: strin
     return (
         <div className="nav-block">
                 <NavLink to={path}>
-                    <p className="text-animation fade-in">{children}</p>
+                    <p className="text-animation fade-in nav-block-link">{children}</p>
                 </NavLink>
         </div>
     )
