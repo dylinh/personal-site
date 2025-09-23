@@ -9,9 +9,9 @@ type ProjectCardProps = {
 }
 
 export default function ProjectCard({title, date, desc, tags, path}: ProjectCardProps){
-    const tagElements = tags.map((element) => {
+    const tagElements = tags.map((element, index) => {
         return (
-            <span className="project-tag">{element}</span>
+            <span key={index} className="project-tag">{element}</span>
     )})
     
     return (

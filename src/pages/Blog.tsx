@@ -1,6 +1,5 @@
 import BackButton from "../components/BackButton";
 import BlogCard from "../components/BlogCard";
-import Footer from "../components/Footer";
 
 const blogPostsWithPath = [
     {
@@ -22,8 +21,8 @@ export default function Blog(){
             <p className="about-title text-animation">BLOG</p>
             <div className="blog-card-container fade-in">
                 {
-                    blogPostsWithPath.map((post) => (
-                        <BlogCard title={post.title} desc={post.desc} date={post.date} path={post.path}/>
+                    blogPostsWithPath.map((post, index) => (
+                        <BlogCard key={index} title={post.title} desc={post.desc} date={post.date} path={post.path}/>
                     ))
                 }
             </div>

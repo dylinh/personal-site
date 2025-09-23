@@ -2,6 +2,14 @@
     box-sizing: border-box;    
 }
 
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter') format('woff2-variations');
+  font-weight: 100 900;   /* variable font range */
+  font-style: normal;
+  font-display: swap;
+}
+
 html, body {
 height: 100%;
 margin: 0;
@@ -64,6 +72,7 @@ h1 {
     text-align: center;
     gap: 1rem;
     margin-top: 5em;
+    justify-content: center;
 }
 
 .nav-block{
@@ -372,7 +381,7 @@ footer{
         display: flex;
         flex-direction: row;
         width: 900px;
-        margin-top: 3em;
+        margin-top: 2em;
     }
 
     .footer-home{
@@ -389,8 +398,8 @@ footer{
     }
 
     .about-title{
-        margin-top: 0.2em;
-        font-size: 4rem;
+        margin-top: 0.6em;
+        font-size: 3rem;
         margin-bottom: 0.5em;
     }
 

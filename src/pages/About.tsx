@@ -1,7 +1,5 @@
 import imgUrl from "../assets/dylinh3.jpg"
-import Footer from "../components/Footer";
 import BackButton from "../components/BackButton";
-import Navbar from "../components/Navbar";
 
 export default function About(){
     return(
@@ -11,7 +9,7 @@ export default function About(){
                         <p className="about-title text-animation">ABOUT</p>
                         <div className="fade-in">
                             <div className="img-container">
-                                <img src={imgUrl} className="about-img"/>
+                                <img src={imgUrl} className="about-img" alt="A headshot of Dylinh smiling in a purple dress shirt."/>
                             </div>
                             <div className="writing-container">
                                 <p className="writing">Hey, my name is Dylinh Bun. I'm a fourth year Computer Science student at Wilfrid Laurier University with experience in both web development and data science. At Loblaws, I automated financial reporting in Python, saving time for a finance team every week.<br/><br/>My main focus now is building modern and responsive websites. I work with HTML, CSS, JavaScript, React, accessibility, and UI design to develop websites that are well designed and performant across devices.</p>

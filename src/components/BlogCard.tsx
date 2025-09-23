@@ -1,5 +1,4 @@
 import { Link } from "react-router"
-import { HiChevronDoubleRight } from "react-icons/hi2";
 import { BsChevronRight } from "react-icons/bs";
 
 type BlogCardProps = {
