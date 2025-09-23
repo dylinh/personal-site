@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio"
 import Blog from "./pages/Blog"
 import SocialMedia from './blogPosts/SocialMedia'
 import Frontend from './blogPosts/Frontend'
+import NotFound from './pages/NotFound'
 
 function App(){
     return (
@@ -24,6 +25,7 @@ ReactDOM
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/blog/social-media" element={<SocialMedia/>}/>
             <Route path="/blog/frontend" element={<Frontend/>}/>
+            <Route path="*" element={<NotFound/>}/>
         </Routes>
     </BrowserRouter>
 )
