@@ -332,7 +332,6 @@ footer{
     }
 
     .project-tag{
-        font-size: 0.8rem;
         border: solid 1px;
     }
 
@@ -414,7 +413,6 @@ footer{
 
 
     .project-tag{
-        font-size: 0.9rem;
         border: solid 1px;
     }
 
@@ -478,4 +476,7 @@ footer{
         margin: 3em auto 3em auto;
     }
 
+    .nav-block:hover{
+        opacity: 0.6;
+    }
 }
