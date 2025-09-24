@@ -10,6 +10,11 @@
     text-align: center;
 }
 
+.backbtn-blog-container{
+    margin-top: 1.6em;
+    margin-left: 0.9em;
+}
+
 .about-header{
     display: flex;
 
@@ -288,7 +293,7 @@ footer{
 }
 
 .blog-post-container{
-    margin: 6em 1em 2em 1em;
+    margin: 1em 1em 2em 1em;
     background: rgba(150, 135, 135, 0.1);
     box-shadow: 0 0 20px rgb(39, 38, 38);
     backdrop-filter: blur(1px);

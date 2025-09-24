@@ -3,7 +3,9 @@ import BackButton from "../components/BackButton"
 export default function Frontend(){
     return (
         <>
-        <BackButton path="/blog"/>
+        <div className="backbtn-blog-container">
+            <BackButton className="backbtn-blog" path="/blog"/>
+        </div>
         <div className="blog-post-container fade-in">
             <h2 className="blog-post-title">4 Months of Frontend Development</h2>
             <h3 className="blog-post-date">September 13, 2025</h3>

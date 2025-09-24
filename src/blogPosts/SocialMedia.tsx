@@ -3,7 +3,9 @@ import BackButton from "../components/BackButton"
 export default function SocialMedia(){
     return (
         <>
-        <BackButton path="/blog"/>
+        <div className="backbtn-blog-container">
+            <BackButton className="backbtn-blog" path="/blog"/>
+        </div>
         <div className="blog-post-container fade-in">
             <h2 className="blog-post-title">100 Days Without Social Media</h2>
             <h3 className="blog-post-date">September 2, 2025</h3>
