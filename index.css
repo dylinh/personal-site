@@ -2,14 +2,6 @@
     box-sizing: border-box;    
 }
 
-@font-face {
-  font-family: 'Inter';
-  src: url('../fonts/Inter') format('woff2-variations');
-  font-weight: 100 900;   /* variable font range */
-  font-style: normal;
-  font-display: swap;
-}
-
 .error-text{
     display: flex;
     justify-content: center;
@@ -404,6 +396,10 @@ footer{
         padding: 0;
     }
 
+    .project-tag{
+        font-size: 0.7rem;
+    }
+
     .layout{
         display: flex;
         flex-direction: column;
@@ -449,14 +445,12 @@ footer{
     }
 
     .blog-card-container{
-        max-width: 700px;
+        max-width: 800px;
     }
 
     .blog-card{
         padding-bottom: 1em;
     }
-
-
 
     .project-tag{
         border: solid 1px;
