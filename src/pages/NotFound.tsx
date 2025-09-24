@@ -1,5 +1,4 @@
 import { Link } from "react-router"
-import { IoHomeOutline } from "react-icons/io5";
 
 export default function NotFound(){
     return (
