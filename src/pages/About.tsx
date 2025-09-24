@@ -4,9 +4,11 @@ import BackButton from "../components/BackButton";
 export default function About(){
     return(
             <div className="about-page">
-                    <BackButton path={"/"}/>
                     <div className="about-container">
-                        <p className="about-title text-animation">ABOUT</p>
+                        <div className="about-header">
+                            <BackButton className="backbtn-about" path={"/"}/>
+                            <p className="about-title text-animation">ABOUT</p>
+                        </div>
                         <div className="fade-in">
                             <div className="img-container">
                                 <img src={imgUrl} className="about-img" alt="A headshot of Dylinh smiling in a purple dress shirt."/>

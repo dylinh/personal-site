@@ -16,9 +16,11 @@ const blogPostsWithPath = [
 
 export default function Blog(){
     return (
-        <>
-            <BackButton path="/"/>
-            <p className="about-title text-animation">BLOG</p>
+        <div className="about-page">
+            <div className="about-header">
+                <BackButton className="backbtn-about" path="/"/>
+                <p className="about-title text-animation">BLOG</p>
+            </div>
             <div className="blog-card-container fade-in">
                 {
                     blogPostsWithPath.map((post, index) => (
@@ -26,6 +28,6 @@ export default function Blog(){
                     ))
                 }
             </div>
-      </>
+      </div>
     )
 }

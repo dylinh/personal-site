@@ -10,6 +10,17 @@
     text-align: center;
 }
 
+.about-header{
+    display: flex;
+
+    width: 100%;
+    justify-content: center;
+    position: relative;
+}
+
+.backbtn-about{
+    position: absolute;
+}
 
 html, body {
 height: 100%;
@@ -163,7 +174,6 @@ a {
     background-color: transparent;
     border: none;
     cursor: pointer;
-    position: absolute;
     top: 2em;
     left: 1em;
 }
