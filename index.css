@@ -25,6 +25,7 @@
 
 .backbtn-about{
     position: absolute;
+    padding-top: 0.25em;
 }
 
 html, body {
