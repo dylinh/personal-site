@@ -7,7 +7,7 @@ export default function Portfolio(){
             <BackButton path="/"/>
             <p className="about-title text-animation">PORTFOLIO</p>
             <div className="blog-card-container fade-in">
-                <ProjectCard desc="A responsive, mobile-first, and accessible personal website tested using Lighthouse." date="September 18, 2025" title="Personal Website" tags={["Typescript", "React", "React Router", "Frontend"]} path="https://github.com/dylinh/personal-site" />
+                <ProjectCard desc="A responsive, mobile-first, and accessible personal website." date="September 18, 2025" title="Personal Website" tags={["Typescript", "React", "React Router", "Frontend", "HTML/CSS"]} path="https://github.com/dylinh/personal-site" />
             </div>
         </>
     )

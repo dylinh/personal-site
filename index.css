@@ -371,11 +371,7 @@ footer{
     }
 
     .writing{
-        font-size: 1.6rem;
-    }
-
-    .blog-card{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .project-tag{
@@ -385,18 +381,21 @@ footer{
     .nav-block{
         font-size: 3.5rem ;
     }
-
-    .blog-card-date{
-        font-size: 1rem;
-    }
     
     .blog-post-container{
         font-size: 1.6rem;
     }
 
     .blog-card-desc{
-        font-size: 1.3rem;
+        font-size: 1.1rem;
     }
+
+    .blog-card-container{
+        max-width: 700px;
+    }
+
+
+
 }
 
 @media (min-width: 1025px){
