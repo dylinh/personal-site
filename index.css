@@ -262,7 +262,7 @@ footer{
     padding: 0.3em 1em;
     border-radius: 15px;
     overflow: auto;
-    margin-bottom: 0.5em;
+    margin-bottom: 0.8em;
     position: relative;
 }
 
@@ -538,5 +538,14 @@ footer{
 
     .nav-block{
         font-weight: 200;
+    }
+
+    .blog-card{
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .blog-card:hover{
+        transform: scale(1.03);
+        box-shadow: 0 0 10px #9278a4;
     }
 }
