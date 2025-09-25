@@ -546,6 +546,6 @@ footer{
 
     .blog-card:hover{
         transform: scale(1.03);
-        box-shadow: 0 0 10px #9278a4;
+        box-shadow: 0 0 5px #af5aec;
     }
 }
