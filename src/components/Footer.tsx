@@ -1,6 +1,6 @@
-import { GrGithub, GrLinkedinOption } from "react-icons/gr";
+import { GrGithub } from "react-icons/gr";
 import { MdMail } from "react-icons/md";
-// <a href="https://linkedin.com/in/dylinh" aria-label="Connect with Dylinh on LinkedIn." target="_blank" rel="noopener noreferrer"><GrLinkedinOption className="icon" size={45}/></a>
+
 type FooterProps = {
   className?: string;
 };
