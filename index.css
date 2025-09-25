@@ -96,7 +96,7 @@ h1 {
 .nav-block{
     width: 100%;
     font-size: 2.5rem;
-    font-weight: 200;
+    font-weight: 400;
     border-radius: 2px;
     letter-spacing: 0.3em;
     margin-bottom: 2em;
@@ -144,11 +144,11 @@ h1 {
 .text-animation{
         background: linear-gradient(
         90deg,
-        #406188,
+        #ad49a5,
         #9278a4 50%,
         #dc7c91 75%,
         #d4758a 75%,
-        #406188
+        #ad49a5
     );
     background-size: 200% auto;
     background-clip: text;
@@ -534,5 +534,9 @@ footer{
 
     .nav-block:hover{
         opacity: 0.6;
+    }
+
+    .nav-block{
+        font-weight: 200;
     }
 }
