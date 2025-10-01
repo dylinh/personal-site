@@ -4,7 +4,7 @@ import Footer from "../components/Footer"
 export default function Home(){
     return (
         <>
-            <div className="layout">
+            <div className="layout fade-in">
                 <Header/>
                 <Footer className="footer-home"/>
             </div>
