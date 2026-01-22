@@ -14,7 +14,7 @@ export default function About(){
                                 <img src={imgUrl} className="about-img" alt="A headshot of Dylinh smiling in a purple dress shirt."/>
                             </div>
                             <div className="writing-container">
-                                <p className="writing">hey, welcome to my website. i'm a fourth year cs major at laurier and interested in all things tech. I built this site after taking a course on front end development! this website is where i'll be showcasing my projects and blog posts related to tech and business.<br/></p>
+                                <p className="writing">I'm a fourth year CS major at Wilfrid Laurier University in Waterloo and interested in all things tech. I built this site after taking a course on front end development! This website is where i'll be showcasing my projects and blog posts related to tech and business.<br/></p>
                                 <p className="writing"><br/>happy to connect: <a href="mailto:contact@dylinh.com" className="bold" >contact@dylinh.com</a></p>
                             </div>
                         </div>
