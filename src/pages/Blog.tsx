@@ -14,7 +14,7 @@ export default function Blog(){
         <div className="about-page fade-in">
             <div className="about-header">
                 <BackButton className="backbtn-about" path="/"/>
-                <p className="about-title text-animation">BLOG</p>
+                <p className="about-title text-animation">blog</p>
             </div>
             <div className="blog-card-container">
                 {

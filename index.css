@@ -76,7 +76,7 @@ h1 {
     padding-top: 0.5em;
     margin: 0;
     font-weight: 400;
-    font-size: 19vw;
+    font-size: 14vw;
     letter-spacing: .09em;
     line-height: 1.5em;
 }
@@ -408,7 +408,7 @@ footer{
 
 @media (min-width: 1025px){
     h1 {
-        font-size: 13vw;
+        font-size: 10vw;
         padding: 0;
     }
 

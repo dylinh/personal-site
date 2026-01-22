@@ -7,7 +7,7 @@ export default function About(){
                     <div className="about-container">
                         <div className="about-header">
                             <BackButton className="backbtn-about" path={"/"}/>
-                            <p className="about-title text-animation">ABOUT</p>
+                            <p className="about-title text-animation">about me</p>
                         </div>
                         <div>
                             <div className="img-container">
