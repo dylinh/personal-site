@@ -7,11 +7,6 @@ const blogPostsWithPath = [
         date: "September 13, 2025",
         desc: "What I learned over the summer.",
         path: "/blog/frontend"
-    },{
-        title: "100 Days Without Social Media",
-        date: "September 2, 2025",
-        desc: "Reflections & thoughts.",
-        path: "/blog/social-media"
     }]
 
 export default function Blog(){
