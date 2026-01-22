@@ -5,7 +5,7 @@ const blogPostsWithPath = [
     {
         title: "4 Months of Frontend Development",
         date: "September 13, 2025",
-        desc: "learned typescript, react, and all things front end.",
+        desc: "How I learned React, HTML/CSS, React Router, responsive design, and accessibility",
         path: "/blog/frontend"
     }]
 
