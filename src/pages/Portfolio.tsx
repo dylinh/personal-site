@@ -11,7 +11,7 @@ export default function Portfolio(){
             <div className="blog-card-container">
                 <ProjectCard desc="A responsive, mobile-first, and accessible personal website." date="September 18, 2025" title="dylinh.com" tags={["TypeScript", "React"]} path="https://github.com/dylinh/personal-site" />
                 <ProjectCard desc="An iOS native app to help Laurier students find classmates and meet new people." date="March 8, 2026" title="meet a hawk" tags={["Swift", "Firebase"]} path="https://apps.apple.com/ca/app/meet-a-hawk/id6757995667" />
-                <ProjectCard desc="A effective website targeting men in Ontario" date="March 5, 2026" title="L10 Therapy" tags={["React", "Tailwind"]} path="https://l10therapy.ca" />
+                <ProjectCard desc="An online therapy clinic focused on building men's mental health in Ontario" date="March 5, 2026" title="L10 Therapy" tags={["React", "Tailwind"]} path="https://l10therapy.ca" />
 
             </div>
         </div>
