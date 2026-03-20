@@ -1,6 +1,5 @@
 import { FaLinkedin } from "react-icons/fa";
 import { GrGithub } from "react-icons/gr";
-import { MdMail } from "react-icons/md";
 
 type FooterProps = {
   className?: string;
