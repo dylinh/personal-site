@@ -1,4 +1,3 @@
-import { FaLinkedin } from "react-icons/fa";
 import { GrGithub } from "react-icons/gr";
 
 type FooterProps = {
