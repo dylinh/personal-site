@@ -7,7 +7,14 @@ const blogPostsWithPath = [
         date: "September 13, 2025",
         desc: "How I learned React, HTML/CSS, React Router, responsive design, and accessibility",
         path: "/blog/frontend"
-    }]
+    },
+    {
+        title: "Graduation & Growth",
+        date: "May 9, 2026",
+        desc: "I discuss graduation, my app, and life.",
+        path: "/blog/growth"
+    }
+]
 
 export default function Blog(){
     return (

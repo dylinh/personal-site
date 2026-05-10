@@ -6,6 +6,7 @@ import Portfolio from "./pages/Portfolio"
 import Blog from "./pages/Blog"
 import Frontend from './blogPosts/Frontend'
 import NotFound from './pages/NotFound'
+import Growth from './blogPosts/Growth'
 
 function App(){
     return (
@@ -23,6 +24,7 @@ ReactDOM
             <Route path="/portfolio" element={<Portfolio/>}/>
             <Route path="/blog" element={<Blog/>}/>
             <Route path="/blog/frontend" element={<Frontend/>}/>
+            <Route path="/blog/growth" element={<Growth/>}/>
             <Route path="*" element={<NotFound/>}/>
         </Routes>
     </BrowserRouter>
