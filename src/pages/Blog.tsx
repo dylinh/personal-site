@@ -13,6 +13,11 @@ const blogPostsWithPath = [
         date: "May 9, 2026",
         desc: "I discuss graduation, my app, and life.",
         path: "/blog/growth"
+    }, {
+        title: "Thoughts",
+        date: "May 17, 2026",
+        desc: "",
+        path: "/blog/thoughts"
     }
 ]
 
