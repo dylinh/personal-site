@@ -11,7 +11,7 @@ export default function Books(){
             <h3 className="blog-post-date">May 17, 2026</h3>
             <hr/>
             <ul>
-                <p>Here is my growing list of book recommendations:</p>
+                <p>Here is my growing list of book recommendations<br/></p>
                 <li>Making a Good Brain Great by Daniel Amen - I can't put into words how important your brain health is and this book describes everything you need to do. </li>
             </ul>
         </div>
