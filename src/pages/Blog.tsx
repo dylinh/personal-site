@@ -20,7 +20,7 @@ const blogPostsWithPath = [
         path: "/blog/thoughts"
     },
     {
-        title: "Book Recommendaitons",
+        title: "Book Recommendations",
         date: "May 21, 2026",
         desc: "",
         path: "/blog/books"
