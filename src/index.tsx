@@ -8,6 +8,7 @@ import Frontend from './blogPosts/Frontend'
 import NotFound from './pages/NotFound'
 import Growth from './blogPosts/Growth'
 import Thoughts from './blogPosts/Thoughts'
+import Books from './blogPosts/Books'
 
 function App(){
     return (
@@ -27,6 +28,7 @@ ReactDOM
             <Route path="/blog/frontend" element={<Frontend/>}/>
             <Route path="/blog/growth" element={<Growth/>}/>
             <Route path="/blog/thoughts" element={<Thoughts/>}/>
+            <Route path="/blog/books" element={<Books/>}/>
             <Route path="*" element={<NotFound/>}/>
         </Routes>
     </BrowserRouter>
