@@ -8,7 +8,7 @@ export default function Books(){
         </div>
         <div className="blog-post-container fade-in">
             <h2 className="blog-post-title">Book Recommendations</h2>
-            <h3 className="blog-post-date">May 17, 2026</h3>
+            <h3 className="blog-post-date">May 21, 2026</h3>
             <hr/>
             <ul>
                 <li>Making a Good Brain Great by Daniel Amen - I can't put into words how important your brain health is and this book describes everything you need to do.</li>
