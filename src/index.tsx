@@ -9,16 +9,21 @@ import NotFound from './pages/NotFound'
 import Growth from './blogPosts/Growth'
 import Thoughts from './blogPosts/Thoughts'
 import Books from './blogPosts/Books'
+import Cursor from './components/Cursor'
 
 function App(){
     return (
-    <Home/>
+    <>
+        <Home/>
+    </>
 )
 }
 
 ReactDOM
     .createRoot(document.getElementById("root")!)
     .render(
+    <>
+    <Cursor/>
     <BrowserRouter>
         <Routes>
             <Route path="/" element={<App/>}/>
@@ -32,4 +37,5 @@ ReactDOM
             <Route path="*" element={<NotFound/>}/>
         </Routes>
     </BrowserRouter>
+    </>
 )
