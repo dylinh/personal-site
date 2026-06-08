@@ -11,8 +11,8 @@ export default function Books(){
             <h3 className="blog-post-date">May 21, 2026</h3>
             <hr/>
             <ul>
-                <li>Making a Good Brain Great by Daniel Amen - I can't put into words how important your brain health is and this book describes everything you need to do.</li>
-                <li>The Let Them Theory by Mel Robbins - Essentially stop trying to control others overall good life advice </li>
+                <li>Making a Good Brain Great by Daniel Amen - Describes how to optimize your brain health.</li>
+                <li>The Let Them Theory by Mel Robbins - Explains how your life improves when you stop trying to control others. </li>
             </ul>
         </div>
         </>
