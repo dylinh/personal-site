@@ -575,8 +575,6 @@ footer{
         backdrop-filter: blur(1px);
         border: 1px solid rgba(255,255,255,0.3);
         background: rgba(255,255,255,0.08);
-
         z-index: 9999;
     }
-
 }
