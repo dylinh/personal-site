@@ -331,14 +331,6 @@ footer{
 
 }
 
-.blog-post-container p{
-    text-align: justify;
-}
-
-.writing-container p{
-    text-align: justify;
-}
-
 .tag-container{
     margin-top: 1em;
     display: flex;
