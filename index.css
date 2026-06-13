@@ -46,13 +46,7 @@ body {
         linear-gradient(to bottom, #80808012 1px, transparent 1px);
     background-size: 24px 24px;
     z-index: 0;
-    cursor: none;
 }
-
-body {
-  cursor: none;
-}
-
 
 .after-effect {
   position: relative; /* important! so ::after is scoped */
