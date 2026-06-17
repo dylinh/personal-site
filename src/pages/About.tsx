@@ -1,4 +1,4 @@
-import imgUrl from "../assets/dylinh3.JPG
+import imgUrl from "..//assets/dylinh5.jpeg"
 import BackButton from "../components/BackButton";
 
 export default function About(){
