@@ -13,6 +13,7 @@ export default function Books(){
             <ul>
                 <li>Making a Good Brain Great by Daniel Amen - Describes how to optimize your brain health.</li>
                 <li>The Let Them Theory by Mel Robbins - Explains how your life improves when you stop trying to control others. </li>
+                <li>i-Minds - How social media and the internet is creating changes in our lives</li>
             </ul>
         </div>
         </>
